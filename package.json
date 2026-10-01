@@ -1,0 +1,16 @@
+{
+	"name": "notes-test-data",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Generate classic literature content with notes for testing, in one click.",
+	"author": "George Mamadashvili",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/Mamaduka/notes-test-data",
+	"devDependencies": {
+		"@wordpress/prettier-config": "^4.56.0",
+		"prettier": "npm:wp-prettier@^3.0.3"
+	},
+	"scripts": {
+		"format": "prettier --write ."
+	}
+}
